@@ -1,0 +1,55 @@
+/* general css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ececec;
+  color: #e3e3e3;
+}
+
+/* Main block */
+.navSideAndContent { /* this lets the sidebar and content sit next to each other */
+  display: flex;
+  height: 100%;
+}
+
+/* Navigation sidebar */
+.navSide {
+  background-color: #989898;
+  border-right: 2px solid #2c2c2c;
+  padding-right: 10px;
+  width: 250px;
+  position: fixed;
+  height: 100%;
+  margin-top: 0px;
+}
+.navSide p {
+  text-align: center;
+  color: #000000;
+  font-size: 1.5rem;
+}
+.navSide a {
+  text-align: center;
+  display: block;
+  color: #000000;
+  padding: 2.5px;
+  text-decoration: none;
+  /* text-decoration-thickness: 1px; */
+  font-size: 1.1rem;
+}
+.navSide a:hover {
+  opacity: 0.5;
+}
+
+/* content */
+.content {
+  margin-left: 250px; /* compensate for the width of the side nav bar */
+}
+
+canvas {
+  margin-left: 16%;
+  display: block;
+/*  margin: 0 auto; */
+  background-color: #000000;
+  border: 0px solid #e3e3e3;
+}
